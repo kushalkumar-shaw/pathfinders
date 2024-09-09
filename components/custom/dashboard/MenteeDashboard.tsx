@@ -172,7 +172,13 @@ export default function MenteeDashboard() {
   );
 }
 
-function StatCard({ title, value, icon }) {
+interface StatCardProps {
+  title: string;
+  value: number | string;
+  icon: React.ReactNode;
+}
+
+function StatCard({ title, value, icon }: StatCardProps) {
   return (
     <Card>
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
@@ -186,7 +192,19 @@ function StatCard({ title, value, icon }) {
   );
 }
 
-function QuickActionCard({ title, description, icon, href }) {
+interface QuickActionCardProps {
+  title: string;
+  description: string;
+  icon: React.ReactNode;
+  href: string;
+}
+
+function QuickActionCard({
+  title,
+  description,
+  icon,
+  href,
+}: QuickActionCardProps) {
   return (
     <Card className="hover:bg-accent transition-colors">
       <CardHeader>
@@ -263,7 +281,7 @@ const recentMessages = [
 ];
 
 // Additional icons
-function ClockIcon(props) {
+function ClockIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
