@@ -23,6 +23,7 @@ export default function VideoCallPage() {
   const remoteVideoRef = useRef<HTMLVideoElement>(null);
   const peerConnectionRef = useRef<RTCPeerConnection | null>(null);
 
+  console.log(remoteStream);
   useEffect(() => {
     startCall();
     return () => {
