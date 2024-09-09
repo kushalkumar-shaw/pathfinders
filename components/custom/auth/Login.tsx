@@ -62,7 +62,7 @@ export default function LoginPage() {
           </CardContent>
           <CardFooter className="flex flex-col items-center">
             <Button variant="link" asChild>
-              <Link href="/signup">Don't have an account? Sign Up</Link>
+              <Link href="/signup">{"Don't have an account? Sign Up"}</Link>
             </Button>
           </CardFooter>
         </Card>

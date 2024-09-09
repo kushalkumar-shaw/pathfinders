@@ -72,7 +72,9 @@ function TestimonialCarousel() {
                   height={100}
                   className="rounded-full mb-4"
                 />
-                <p className="text-lg italic mb-4">"{testimonial.quote}"</p>
+                <p className="text-lg italic mb-4">
+                  &quot{testimonial.quote}&quot
+                </p>
                 <h3 className="font-semibold">{testimonial.name}</h3>
                 <p className="text-sm text-gray-600">
                   {testimonial.role} at {testimonial.company}
