@@ -121,10 +121,10 @@ export default function LandingPage() {
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 text-center md:text-left">
                 <h1 className="text-4xl font-extrabold sm:text-5xl md:text-6xl">
-                  Connect, Learn, Grow
+                  Connect, Learn & Grow
                 </h1>
                 <p className="mt-3 text-xl sm:text-2xl md:mt-5">
-                  Find your perfect mentor and accelerate your career in tech
+                  Find your perfect mentor and accelerate your career.
                 </p>
                 <div className="mt-10">
                   <Button size="lg" asChild className="rounded-full">
