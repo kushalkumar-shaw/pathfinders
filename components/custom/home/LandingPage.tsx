@@ -149,7 +149,7 @@ export default function LandingPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-                Why Choose Path Finders?
+                Why Choose PathFinders?
               </h2>
               <p className="mt-4 text-xl text-gray-600">
                 Empower your journey with personalized guidance from industry
@@ -203,7 +203,7 @@ export default function LandingPage() {
                 Ready to Take the Next Step?
               </h2>
               <p className="mt-4 text-xl">
-                Join Path Finders today and start your journey towards success
+                Join PathFinders today and start your journey towards success
               </p>
               <div className="mt-8">
                 <Button
@@ -224,7 +224,7 @@ export default function LandingPage() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <p className="mt-2 text-sm">
-                © 2024 Mentor Connect. All rights reserved.
+                © 2024 PathFinders. All rights reserved.
               </p>
             </div>
             <div className="flex flex-wrap justify-center md:justify-end space-x-6">
